@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/defint/koins-bot.svg?branch=master)](https://travis-ci.org/defint/koins-bot)
+
 # Koins bot for the Karma project
 This project was created for send notifications to the employees of the Koins company. 
 Each employee should spend some time to the special project "Karma". 
