@@ -15,6 +15,9 @@ var connector = new builder.ChatConnector({
 });
 var bot = new builder.UniversalBot(connector);
 server.post('/api/messages', connector.listen());
+server.get('/', function (req, resp) {
+  resp.send("hello");
+});
 //Bot on
 bot.on('contactRelationUpdate', function (message) {
   if (message.action === 'add') {
